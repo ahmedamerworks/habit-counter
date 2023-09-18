@@ -1,0 +1,13 @@
+.main-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: auto;
+}
+
+.main-sidebar {
+  border: 0.4em solid;
+  border-color: var(--color-1);
+  border-radius: 50px;
+  height: 70%;
+}

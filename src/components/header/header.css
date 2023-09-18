@@ -1,0 +1,33 @@
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(1fr auto);
+  grid-template-rows: 1fr;
+  height: 7vh;
+  padding: 10px;
+  /* background: var(--color-1); */
+  color: var(--font-color1);
+  font-family: var(--main-font);
+  font-size: large;
+}
+
+.header-title {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-links_container {
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icons {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

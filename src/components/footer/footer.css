@@ -1,0 +1,7 @@
+.footer-container {
+  height: 7vh;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  background: var(--color-1);
+}

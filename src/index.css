@@ -1,2 +1,44 @@
 :root {
+  --color-1: #2f4858;
+  --color-2: #1a6378;
+  --color-3: #008091;
+  --color-4: #009e9f;
+  --color-5: #00bca0;
+  --color-6: #1cd896;
+
+  --font-color1: azure;
+  --font-color2: #242424;
+
+  --main-font: "Mooli";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mooli&family=Playfair+Display&display=swap");
+
+/* Custom animations from Animista/modif */
+
+body {
+  background: linear-gradient(
+    -45deg,
+    var(--color-1),
+    var(--color-2),
+    var(--color-3),
+    var(--color-4),
+    var(--color-5),
+    var(--color-6)
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
